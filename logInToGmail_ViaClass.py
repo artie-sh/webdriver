@@ -39,11 +39,24 @@ class logInToGmail(unittest.TestCase):
         assert 'Artie' in driver.page_source
         driver.implicitly_wait(1000)
         report.add_screen()
+
+        profile_button = driver.find_element_by_xpath("//a[contains(@title, 'artie.sh.87@gmail.com')]")
+        assert profile_button
+        profile_button.click()
+
+        logout_button = driver.find_element_by_xpath("//a[contains(@href, 'https://mail.google.com/mail/logout')]")
+        assert logout_button
+        logout_button.click()
+
+        assert passwd and sign_in
+        report.add_screen()
+
         report.close()
 
 
-#    def tearDown(self):
- #       self.driver.close()
+
+    def tearDown(self):
+        self.driver.close()
 
 if __name__ == "__main__":
     unittest.main()
