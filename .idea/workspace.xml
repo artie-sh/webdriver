@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f650d5c-fdf2-4844-8c53-ea69c029fe6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Report.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logInToGmail.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logInToGmail_ViaClass.py" afterPath="$PROJECT_DIR$/logInToGmail_ViaClass.py" />
     </list>
     <ignored path="webdriver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="library.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library.py">
+      <file leaf-file-name="report.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/report.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="38" />
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -37,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logInToGmail_ViaClass.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logInToGmail_ViaClass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logInToGmail_ViaClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state vertical-scroll-proportion="1.326087">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -49,14 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Report.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Report.py">
+      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/general.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4259635">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/paths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +94,12 @@
         <option value="$PROJECT_DIR$/library.py" />
         <option value="$PROJECT_DIR$/logInToGmail.py" />
         <option value="$PROJECT_DIR$/class_test.py" />
-        <option value="$PROJECT_DIR$/logInToGmail_ViaClass.py" />
         <option value="$PROJECT_DIR$/Report.py" />
+        <option value="$PROJECT_DIR$/pack/fl.py" />
+        <option value="$PROJECT_DIR$/library/paths.py" />
+        <option value="$PROJECT_DIR$/library/general.py" />
+        <option value="$PROJECT_DIR$/library/report.py" />
+        <option value="$PROJECT_DIR$/logInToGmail_ViaClass.py" />
       </list>
     </option>
   </component>
@@ -124,14 +140,6 @@
               <option name="myItemId" value="webdriver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (/usr/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -139,15 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (/usr/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python2.7" />
+              <option name="myItemId" value="webdriver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,6 +158,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webdriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -167,7 +171,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in logInToGmail_ViaClass">
+  <component name="RunManager" selected="Python tests.Unittests in logInToGmail">
     <configuration default="false" name="Unittests in logInToGmail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,9 +408,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in logInToGmail_ViaClass" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in class_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in logInToGmail" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in logInToGmail" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in logInToGmail_ViaClass" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in class_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.library" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_2" />
       </list>
@@ -426,29 +430,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 31m 16s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 34m 11s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 36m 14s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 37m 27s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 37m 49s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 38m 51s.xml">
-      <configuration name="Unittests in class_test" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 39m 59s.xml">
       <configuration name="Unittests in class_test" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_class_test - 2016.02.01 at 21h 40m 58s.xml">
       <configuration name="Unittests in class_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_logInToGmail - 2016.02.01 at 22h 12m 19s.xml">
+      <configuration name="Unittests in logInToGmail" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 21h 43m 22s.xml">
       <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
@@ -456,17 +445,32 @@
     <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 21h 44m 40s.xml">
       <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 22h 08m 22s.xml">
+      <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 22h 09m 36s.xml">
+      <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 22h 10m 26s.xml">
+      <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 22h 11m 10s.xml">
+      <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_logInToGmail_ViaClass - 2016.02.01 at 22h 11m 49s.xml">
+      <configuration name="Unittests in logInToGmail_ViaClass" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2565688" sideWeight="0.23133236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19629057" sideWeight="0.76866764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31839257" sideWeight="0.76866764" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -496,30 +500,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,13 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3235294">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24193548">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -558,32 +538,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30425963">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logInToGmail_ViaClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state vertical-scroll-proportion="1.326087">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4259635">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
