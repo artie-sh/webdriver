@@ -1,6 +1,7 @@
 import unittest
 from selenium import webdriver
 import library
+import Report
 
 class logInToGmail(unittest.TestCase):
 
@@ -11,12 +12,12 @@ class logInToGmail(unittest.TestCase):
 
         driver = self.driver
         driver.maximize_window()
-        report = library.get_report()
+        report = Report.Report()
 
         driver.get('http://www.google.pl')
         gmail = driver.find_element_by_link_text('Gmail')
         assert gmail
-        library.add_screen(report, library.take_screen())
+        report.add_screen()
 
         gmail.click()
         email_input = driver.find_element_by_id('Email')
@@ -24,7 +25,7 @@ class logInToGmail(unittest.TestCase):
         assert email_input and next_button
         email_input.send_keys(library.username)
         driver.implicitly_wait(1000)
-        library.add_screen(report, library.take_screen())
+        report.add_screen()
         next_button.click()
 
         passwd = driver.find_element_by_id('Passwd')
@@ -32,17 +33,17 @@ class logInToGmail(unittest.TestCase):
         assert passwd and sign_in
         passwd.send_keys(library.password)
         driver.implicitly_wait(1000)
-        library.add_screen(report, library.take_screen())
+        report.add_screen()
         sign_in.click()
 
-        assert str('Artie') in driver.page_source
+        assert 'Artie' in driver.page_source
         driver.implicitly_wait(1000)
-        library.add_screen(report, library.take_screen())
-        library.close_report(report)
+        report.add_screen()
+        report.close()
 
 
-#    def tearDown(self):
- #       self.driver.close()
+    def tearDown(self):
+        self.driver.close()
 
 if __name__ == "__main__":
     unittest.main()
