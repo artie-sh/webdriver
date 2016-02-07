@@ -7,7 +7,7 @@ import re
 
 def get_price():
 
-    source_pag = 'http://tsw.forexprostools.com?&commodities=8833'
+    source_page = 'http://tsw.forexprostools.com?&commodities=8833'
     webpage = urllib.urlopen(source_page).read()
     soup = BeautifulSoup(webpage)
     div = soup.find_all('div', id='mainSummaryDiv_8833')
